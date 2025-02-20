@@ -59,7 +59,7 @@ export const App = () => {
                   <button
                     data-cy="AddButton"
                     type="button"
-                    className={classNames({ active: value === element })}
+                    className="button"
                     onClick={() => {
                       setValue(element);
                     }}
